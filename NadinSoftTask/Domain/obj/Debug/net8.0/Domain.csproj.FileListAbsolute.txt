@@ -10,3 +10,9 @@ C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\obj\Debug\net8.0\D
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\bin\Debug\net8.0\Common.Application.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\bin\Debug\net8.0\Common.Domain.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\bin\Debug\net8.0\Common.Application.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\bin\Debug\net8.0\Common.Domain.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date

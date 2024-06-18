@@ -10,3 +10,15 @@ C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\obj\Debug\net8.0\Qu
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\obj\Debug\net8.0\refint\Query.dll
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\obj\Debug\net8.0\Query.pdb
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\obj\Debug\net8.0\ref\Query.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\obj\Debug\net8.0\Query.csproj.AssemblyReference.cache
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Application.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Common.Application.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Common.Domain.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Domain.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Application.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Common.Application.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Common.Domain.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\bin\Debug\net8.0\Domain.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Query\obj\Debug\net8.0\Query.csproj.Up2Date

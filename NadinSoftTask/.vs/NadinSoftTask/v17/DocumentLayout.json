@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\product\\delete\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\product\\delete\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\product\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\product\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
+              "RelativeToolTip": "Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:08:01.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Product\\Delete\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Application\\Product\\Delete\\DeleteProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:07:48.017Z",
+              "EditorCaption": ""
             }
           ]
         }

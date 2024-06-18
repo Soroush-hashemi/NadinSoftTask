@@ -12,10 +12,11 @@ public class Product : BaseEntity
     public PhoneNumber ManufacturerPhone { get; private set; }
     public DateTime ProduceDate { get; private set; }
 
-    public Product(string name, bool isAvailable, string manufacturerEmail,
-        PhoneNumber manufacturerPhone, DateTime produceDate)
+    public Product(long userId, string name, bool isAvailable, string manufacturerEmail,
+        PhoneNumber manufacturerPhone, DateTime produceDate, IProductDomainService domainService)
     {
-        Guard(name , manufacturerEmail);
+        Guard(name, manufacturerEmail, produceDate, domainService);
+        UserId = userId;
         Name = name;
         IsAvailable = isAvailable;
         ManufacturerEmail = manufacturerEmail;
@@ -24,9 +25,9 @@ public class Product : BaseEntity
     }
 
     public void Edit(string name, bool isAvailable, string manufacturerEmail,
-        PhoneNumber manufacturerPhone, DateTime produceDate)
+        PhoneNumber manufacturerPhone, DateTime produceDate, IProductDomainService domainService)
     {
-        Guard(name, manufacturerEmail);
+        Guard(name, manufacturerEmail, produceDate, domainService);
         Name = name;
         IsAvailable = isAvailable;
         ManufacturerEmail = manufacturerEmail;
@@ -34,9 +35,24 @@ public class Product : BaseEntity
         ProduceDate = produceDate;
     }
 
-    private void Guard(string name, string manufacturerEmail)
+    private void Guard(string name, string manufacturerEmail,
+        DateTime produceDate, IProductDomainService domainService)
     {
         NullOrEmptyException.CheckString(name, nameof(name));
         NullOrEmptyException.CheckString(manufacturerEmail, nameof(manufacturerEmail));
+
+        if (ManufacturerEmail != manufacturerEmail)
+        {
+            var result = domainService.IsEmailExist(manufacturerEmail);
+            if (result.Status != Common.Application.OperationResultStatus.Success)
+                throw new NullOrEmptyException(result.Message);
+        }
+
+        if (ProduceDate != produceDate)
+        {
+            var result = domainService.IsProductDateExist(produceDate);
+            if (result.Status != Common.Application.OperationResultStatus.Success)
+                throw new NullOrEmptyException(result.Message);
+        }
     }
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "USSzJISbtEb1qhjYCzulfsuK6iFMYGNfcbScO4SCjvfv0MKU1I9E5bsdYGug3erP0+bYmRbaHzD2GBy6TenKBA==",
+  "dgSpecHash": "+9BzQgEuQVeaUBdzTjqc5AA9QDeupmrqco9tp5tpYRPFuIS0zWmLSnvYRz1qBF8l0zSzswB8kf23RNTN5Mo9hA==",
   "success": true,
   "projectFilePath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\Query.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\soroush\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
-    "C:\\Users\\soroush\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\soroush\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\soroush\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

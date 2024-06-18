@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\product\\delete\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\product\\delete\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\product\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\product\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\register\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\register\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8175C9FA-1E52-4752-8599-333365742BE0}|common\\Common.Application\\Common.Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\common\\common.application\\securityutil\\sha256hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8175C9FA-1E52-4752-8599-333365742BE0}|common\\Common.Application\\Common.Application.csproj|solutionrelative:common\\common.application\\securityutil\\sha256hasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\edit\\editusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\edit\\editusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\edit\\editusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\edit\\editusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\edit\\editusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\edit\\editusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeleteProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
-              "RelativeToolTip": "Application\\Product\\Delete\\DeleteProductCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "RegisterUserCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Register\\RegisterUserCommandValidator.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommandValidator.cs",
+              "RelativeToolTip": "Application\\User\\Register\\RegisterUserCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T12:08:01.965Z",
+              "WhenOpened": "2024-06-18T12:25:29.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeleteProductCommand.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Product\\Delete\\DeleteProductCommand.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\Product\\Delete\\DeleteProductCommand.cs",
-              "RelativeToolTip": "Application\\Product\\Delete\\DeleteProductCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "DocumentIndex": 2,
+              "Title": "Sha256Hasher.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\common\\Common.Application\\SecurityUtil\\Sha256Hasher.cs",
+              "RelativeDocumentMoniker": "common\\Common.Application\\SecurityUtil\\Sha256Hasher.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\common\\Common.Application\\SecurityUtil\\Sha256Hasher.cs",
+              "RelativeToolTip": "common\\Common.Application\\SecurityUtil\\Sha256Hasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T12:07:48.017Z",
+              "WhenOpened": "2024-06-18T12:24:35.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:23:32.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Register\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Application\\User\\Register\\RegisterUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:23:18.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Edit\\EditUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Edit\\EditUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Edit\\EditUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\User\\Edit\\EditUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:22:59.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditUserCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Edit\\EditUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Edit\\EditUserCommandValidator.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Edit\\EditUserCommandValidator.cs",
+              "RelativeToolTip": "Application\\User\\Edit\\EditUserCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:22:50.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Edit\\EditUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Edit\\EditUserCommand.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Edit\\EditUserCommand.cs",
+              "RelativeToolTip": "Application\\User\\Edit\\EditUserCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:21:22.712Z",
               "EditorCaption": ""
             }
           ]

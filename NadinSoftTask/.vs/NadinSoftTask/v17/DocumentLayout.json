@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}|common\\Common.Domain\\Common.Domain.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\common\\common.domain\\bases\\basedomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}|common\\Common.Domain\\Common.Domain.csproj|solutionrelative:common\\common.domain\\bases\\basedomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0135DD69-D9B0-4C29-AE46-69A12DE8BA57}|Domain\\Domain.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0135DD69-D9B0-4C29-AE46-69A12DE8BA57}|Domain\\Domain.csproj|solutionrelative:domain\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BaseDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\common\\Common.Domain\\Bases\\BaseDomainEvent.cs",
+              "RelativeDocumentMoniker": "common\\Common.Domain\\Bases\\BaseDomainEvent.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\common\\Common.Domain\\Bases\\BaseDomainEvent.cs",
+              "RelativeToolTip": "common\\Common.Domain\\Bases\\BaseDomainEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T04:42:31.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Domain\\Product\\Product.cs",
               "RelativeDocumentMoniker": "Domain\\Product\\Product.cs",
@@ -39,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Domain\\User\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User\\User.cs",
               "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Domain\\User\\User.cs",
               "RelativeToolTip": "Domain\\User\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T04:14:22.521Z",
               "EditorCaption": ""

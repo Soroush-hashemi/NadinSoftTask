@@ -1,0 +1,12 @@
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Config.deps.json
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Config.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Config.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.AssemblyInfoInputs.cache
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.AssemblyInfo.cs
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.csproj.CoreCompileInputs.cache
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.sourcelink.json
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\refint\Config.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.pdb
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\ref\Config.dll

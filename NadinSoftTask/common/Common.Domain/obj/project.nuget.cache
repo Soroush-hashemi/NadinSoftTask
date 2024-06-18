@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DL3LXvFn1sAisM2PKv/y4ujffQc38QqXK1e4JnnI0+fO86eEyF2TlqnFQfG0DuezUiAt8k+YIFU1wCdw2v1sIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\common\\Common.Domain\\Common.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\soroush\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\soroush\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

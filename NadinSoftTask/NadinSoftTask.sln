@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0135DD69-D9B0-4C29-AE46-69A12DE8BA57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0135DD69-D9B0-4C29-AE46-69A12DE8BA57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{B89615CF-08D3-429C-81A1-C6CD5E6FA694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{B89615CF-08D3-429C-81A1-C6CD5E6FA694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "Config\Config.csproj", "{BC904A6B-6A24-49F5-992B-086357FBFC0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Config", "Config\Config.csproj", "{BC904A6B-6A24-49F5-992B-086357FBFC0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C90089A4-1F86-4895-8264-AD0CB4EA8B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C90089A4-1F86-4895-8264-AD0CB4EA8B43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationFacade", "PresentationFacade\PresentationFacade.csproj", "{8BEF96A6-0064-47E3-BE4E-91A5378CFB94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationFacade", "PresentationFacade\PresentationFacade.csproj", "{8BEF96A6-0064-47E3-BE4E-91A5378CFB94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query", "Query\Query.csproj", "{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query", "Query\Query.csproj", "{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{9A830724-ECE2-494A-9DF9-105822EA165B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain", "common\Common.Domain\Common.Domain.csproj", "{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +55,16 @@ Global
 		{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5A77E68-0CCE-4BB3-A3F4-2FE7688AFD30} = {9A830724-ECE2-494A-9DF9-105822EA165B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B84309F-5230-4775-B7EE-E68FB741D944}

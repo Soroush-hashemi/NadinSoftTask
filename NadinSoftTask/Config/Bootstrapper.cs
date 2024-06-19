@@ -6,6 +6,8 @@ using Domain.Product;
 using Application.Product;
 using FluentValidation;
 using Query.Product.GetById;
+using PresentationFacade.Product;
+using PresentationFacade.User;
 
 namespace Config;
 public static class Bootstrapper
@@ -22,8 +24,8 @@ public static class Bootstrapper
 
         services.AddTransient<IProductDomainService, ProductDomainService>();
 
-
-        // facade 
+        services.AddTransient<IUserFacade, UserFacade>();
+        services.AddTransient<IProductFacade, ProductFacade>();
 
         services.AddValidatorsFromAssembly(typeof(CreateProductCommandValidator).Assembly);
     }

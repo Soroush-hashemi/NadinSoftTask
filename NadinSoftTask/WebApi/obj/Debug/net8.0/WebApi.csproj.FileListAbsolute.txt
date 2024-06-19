@@ -14,7 +14,6 @@ C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\W
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\WebApi.AssemblyInfoInputs.cache
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\WebApi.AssemblyInfo.cs
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\WebApi.csproj.CoreCompileInputs.cache
-C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\obj\Debug\net8.0\staticwebassets.build.json
@@ -157,3 +156,5 @@ C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\bin\Debug\net8.0\r
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\bin\Debug\net8.0\Common.Query.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\WebApi\bin\Debug\net8.0\Common.Query.pdb

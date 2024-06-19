@@ -26,3 +26,5 @@ C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\D
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Query.pdb
 C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\obj\Debug\net8.0\Config.csproj.Up2Date
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Common.Query.dll
+C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask\Config\bin\Debug\net8.0\Common.Query.pdb

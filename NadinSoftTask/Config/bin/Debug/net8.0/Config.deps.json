@@ -701,6 +701,14 @@
           "Common.Domain.dll": {}
         }
       },
+      "Common.Query/1.0.0": {
+        "dependencies": {
+          "MediatR": "10.0.1"
+        },
+        "runtime": {
+          "Common.Query.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "dependencies": {
           "Common.Application": "1.0.0",
@@ -731,6 +739,7 @@
       },
       "Query/1.0.0": {
         "dependencies": {
+          "Common.Query": "1.0.0",
           "Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -1218,6 +1227,11 @@
       "sha512": ""
     },
     "Common.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

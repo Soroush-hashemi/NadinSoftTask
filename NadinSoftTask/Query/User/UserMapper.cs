@@ -14,9 +14,4 @@ internal static class UserMapper
             Password = user.Password,
         };
     }
-
-    public static List<UserDTO> Map(this List<Domain.User.User> Users)
-    {
-        return Users.Select(user => user.Map()).ToList();
-    }
 }

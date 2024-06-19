@@ -1,4 +1,5 @@
-﻿using Common.Query;
+﻿using AutoMapper;
+using Common.Query;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Query.Product.DTO;
@@ -6,10 +7,12 @@ using Query.Product.DTO;
 namespace Query.Product.GetList;
 public class GetProductsQueryHandler : IQueryHandler<GetProductsQuery, List<ProductDTO>>
 {
+    private readonly IMapper _mapper;
     private readonly Context _context;
-    public GetProductsQueryHandler(Context context)
+    public GetProductsQueryHandler(Context context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
 
     public async Task<List<ProductDTO>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
@@ -18,6 +21,7 @@ public class GetProductsQueryHandler : IQueryHandler<GetProductsQuery, List<Prod
         if (products == null)
             throw new NullReferenceException(nameof(products));
 
-        return products.Map();
+        var productDTOs = _mapper.Map<List<ProductDTO>>(products);
+        return productDTOs;
     }
 }

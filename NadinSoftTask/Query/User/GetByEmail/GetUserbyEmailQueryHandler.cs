@@ -1,14 +1,17 @@
-﻿using Common.Query;
+﻿using AutoMapper;
+using Common.Query;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Query.User.DTO;
 
 namespace Query.User.GetByEmail;
-public class GetUserbyEmailQueryHandler : IQueryHandler<GetUserByEmailQuery, UserDTO>
+public class GetUserByEmailQueryHandler : IQueryHandler<GetUserByEmailQuery, UserDTO>
 {
+    private readonly IMapper _mapper;
     private readonly Context _context;
-    public GetUserbyEmailQueryHandler(Context context)
+    public GetUserByEmailQueryHandler(Context context, IMapper mapper)
     {
+        _mapper = mapper;
         _context = context;
     }
 
@@ -16,8 +19,9 @@ public class GetUserbyEmailQueryHandler : IQueryHandler<GetUserByEmailQuery, Use
     {
         var User = await _context.Users.FirstOrDefaultAsync(x => x.Email == request.Email);
         if (User is null)
-             throw new NullReferenceException(nameof(User));
+            throw new NullReferenceException(nameof(User));
 
-        return User.Map();
+        var userDTO = _mapper.Map<UserDTO>(User);
+        return userDTO;
     }
 }

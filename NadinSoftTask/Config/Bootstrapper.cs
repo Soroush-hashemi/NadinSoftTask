@@ -23,7 +23,6 @@ public static class Bootstrapper
         services.AddMediatR(typeof(GetProductByIdQueryHandler).Assembly);
 
         services.AddTransient<IProductDomainService, ProductDomainService>();
-
         services.AddTransient<IUserFacade, UserFacade>();
         services.AddTransient<IProductFacade, ProductFacade>();
 

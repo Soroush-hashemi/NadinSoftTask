@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEF96A6-0064-47E3-BE4E-91A5378CFB94}|PresentationFacade\\PresentationFacade.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\presentationfacade\\user\\iuserfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BEF96A6-0064-47E3-BE4E-91A5378CFB94}|PresentationFacade\\PresentationFacade.csproj|solutionrelative:presentationfacade\\user\\iuserfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BEF96A6-0064-47E3-BE4E-91A5378CFB94}|PresentationFacade\\PresentationFacade.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\presentationfacade\\user\\userfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BEF96A6-0064-47E3-BE4E-91A5378CFB94}|PresentationFacade\\PresentationFacade.csproj|solutionrelative:presentationfacade\\user\\userfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserFacade.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\PresentationFacade\\User\\UserFacade.cs",
+              "RelativeDocumentMoniker": "PresentationFacade\\User\\UserFacade.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\PresentationFacade\\User\\UserFacade.cs",
+              "RelativeToolTip": "PresentationFacade\\User\\UserFacade.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:35:06.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserFacade.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\PresentationFacade\\User\\IUserFacade.cs",
+              "RelativeDocumentMoniker": "PresentationFacade\\User\\IUserFacade.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\PresentationFacade\\User\\IUserFacade.cs",
+              "RelativeToolTip": "PresentationFacade\\User\\IUserFacade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:35:05.43Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,11 +1,20 @@
+using Common.Application;
+using Config;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var services = builder.Services;
 
-builder.Services.AddControllers();
+var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (ConnectionString is null)
+    throw new NullReferenceException("ConnectionString is null");
+Bootstrapper.ConfigBootstrapper(services, ConnectionString);
+ValidationBootstrapper.Init(services);
+
+services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+services.AddEndpointsApiExplorer();
+services.AddSwaggerGen();
 
 var app = builder.Build();
 

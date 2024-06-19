@@ -12,6 +12,10 @@ public class Product : BaseEntity
     public PhoneNumber ManufacturerPhone { get; private set; }
     public DateTime ProduceDate { get; private set; }
 
+    private Product()
+    {
+    }
+
     public Product(long userId, string name, bool isAvailable, string manufacturerEmail,
         PhoneNumber manufacturerPhone, DateTime produceDate, IProductDomainService domainService)
     {

@@ -6,14 +6,14 @@ using Microsoft.EntityFrameworkCore;
 namespace Infrastructure.Persistence;
 public class Context : DbContext
 {
-    public Context()
+    private Context()
     {
-        
+
     }
 
     public Context(DbContextOptions<Context> options) : base(options)
     {
-        
+
     }
 
     public DbSet<Product> Products { get; set; }

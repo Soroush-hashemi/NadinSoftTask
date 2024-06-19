@@ -1,7 +1,7 @@
 ﻿using Common.Domain.ValueObjects;
 using System;
 
-namespace Query.Product.DTOs;
+namespace Query.Product.DTO;
 public class ProductDTO
 {
     public long ProductId { get; set; }

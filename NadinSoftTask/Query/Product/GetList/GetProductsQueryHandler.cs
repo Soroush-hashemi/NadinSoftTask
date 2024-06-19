@@ -1,7 +1,7 @@
 ﻿using Common.Query;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-using Query.Product.DTOs;
+using Query.Product.DTO;
 
 namespace Query.Product.GetList;
 public class GetProductsQueryHandler : IQueryHandler<GetProductsQuery, List<ProductDTO>>

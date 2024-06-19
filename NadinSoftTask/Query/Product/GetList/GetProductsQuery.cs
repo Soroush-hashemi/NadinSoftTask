@@ -1,5 +1,5 @@
 ﻿using Common.Query;
-using Query.Product.DTOs;
+using Query.Product.DTO;
 using System;
 
 namespace Query.Product.GetList;

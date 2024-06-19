@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\query\\user\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|solutionrelative:query\\user\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\query\\user\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|solutionrelative:query\\user\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\register\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\register\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\query\\product\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|solutionrelative:query\\product\\productmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\query\\product\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2F8ED2-11B8-4818-9968-65D1EC8127B4}|Query\\Query.csproj|solutionrelative:query\\product\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\User\\Register\\RegisterUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:23:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductMapper.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\Product\\ProductMapper.cs",
+              "RelativeDocumentMoniker": "Query\\Product\\ProductMapper.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\Product\\ProductMapper.cs",
+              "RelativeToolTip": "Query\\Product\\ProductMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:21:34.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\User\\UserMapper.cs",
+              "RelativeDocumentMoniker": "Query\\User\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\User\\UserMapper.cs",
+              "RelativeToolTip": "Query\\User\\UserMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:16:45.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\User\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Query\\User\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\User\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Query\\User\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:16:32.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\Product\\DTO\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Query\\Product\\DTO\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\Product\\DTO\\ProductDTO.cs",
+              "RelativeToolTip": "Query\\Product\\DTO\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T09:16:03.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

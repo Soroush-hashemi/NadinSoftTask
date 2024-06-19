@@ -1,4 +1,4 @@
-﻿using Query.Product.DTOs;
+﻿using Query.Product.DTO;
 
 namespace Query.Product;
 internal static class ProductMapper

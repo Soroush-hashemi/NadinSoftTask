@@ -46,8 +46,7 @@
               "RelativeToolTip": "Application\\User\\Register\\RegisterUserCommandHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:23:38.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:23:38.488Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Query\\Product\\ProductMapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:21:34.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:21:34.012Z"
             },
             {
               "$type": "Document",
@@ -70,7 +68,7 @@
               "RelativeDocumentMoniker": "Query\\User\\UserMapper.cs",
               "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Query\\User\\UserMapper.cs",
               "RelativeToolTip": "Query\\User\\UserMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T09:16:45.899Z",
               "EditorCaption": ""
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Query\\User\\DTO\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:16:32.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:16:32.641Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Query\\Product\\DTO\\ProductDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T09:16:03.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T09:16:03.966Z"
             }
           ]
         }

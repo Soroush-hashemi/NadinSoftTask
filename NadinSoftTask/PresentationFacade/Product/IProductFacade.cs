@@ -9,7 +9,8 @@ public interface IProductFacade
 
     Task<OperationResult> Edit(long productId, long userId, string name, bool isAvailable,
         string manufacturerEmail, string manufacturerPhone, DateTime produceDate);
-    Task<OperationResult> Delete(long ProductId);
+
+    Task<OperationResult> Delete(long userId, long ProductId);
 
     Task<List<ProductDTO>> GetPostsList();
     Task<ProductDTO> GetProductById(long ProductId);

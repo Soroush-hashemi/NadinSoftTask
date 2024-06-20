@@ -4,6 +4,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using System.Security.Authentication;
+using Common.Application.SecurityUtil;
+using Microsoft.AspNetCore.Http.Authentication;
+using Microsoft.AspNetCore.Http;
 
 namespace Application.User.Services;
 public class UserService : IUserService
@@ -24,6 +28,13 @@ public class UserService : IUserService
         ArgumentNullException.ThrowIfNull(password);
 
         var user = FindUserByEmail(email);
+        if (user == null)
+            throw new AuthenticationException("کاربری با مشخصات وارد شده وجود ندارد");
+
+        var newPassword = Sha256Hasher.Hash(password);
+
+        if (user.Password != newPassword)
+            throw new AuthenticationException("رمز کاربری اشتباه است");
 
         var Key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtConfig:Key"]));
         var credential = new SigningCredentials(Key, SecurityAlgorithms.HmacSha256);
@@ -32,9 +43,11 @@ public class UserService : IUserService
 
         var tokenDescriptor = new SecurityTokenDescriptor
         {
-            SigningCredentials = credential,
+            Subject = new ClaimsIdentity(claims),
             Expires = DateTime.UtcNow.AddHours(1),
-            Subject = claims,
+            SigningCredentials = credential,
+            Issuer = _configuration["JwtConfig:Issuer"],
+            Audience = _configuration["JwtConfig:Audience"],
         };
 
         var token = handler.CreateToken(tokenDescriptor);
@@ -54,7 +67,7 @@ public class UserService : IUserService
         claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()));
         claims.AddClaim(new Claim(ClaimTypes.Email, user.Email));
         claims.AddClaim(new Claim(ClaimTypes.Name, user.UserName));
+
         return claims;
     }
-
 }

@@ -20,7 +20,7 @@ public class GetProductByIdQueryHandler : IQueryHandler<GetProductByIdQuery, Pro
     {
         var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == request.productId);
         if (product is null)
-            throw new NullReferenceException(nameof(product));
+            throw new NullReferenceException("وجود ندارد");
 
         var productDTO = _mapper.Map<ProductDTO>(product);
         return productDTO;

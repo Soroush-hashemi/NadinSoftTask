@@ -1,13 +1,15 @@
-using Common.Application;
+﻿using Common.Application;
 using Config;
+using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Query.Product;
 using Query.User;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-
 var services = builder.Services;
 
 var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -18,31 +20,73 @@ ValidationBootstrapper.Init(services);
 
 services.AddAutoMapper(typeof(UserMapperProfile), typeof(ProductMapperProfile));
 
-services.AddAuthentication(x =>
+services.AddAuthentication(options =>
 {
-    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(x =>
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
 {
-    x.TokenValidationParameters = new TokenValidationParameters()
+    options.TokenValidationParameters = new TokenValidationParameters
     {
+        ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtConfig:Key"])),
+        ValidateIssuer = true,
         ValidIssuer = builder.Configuration["JwtConfig:Issuer"],
+        ValidateAudience = true,
         ValidAudience = builder.Configuration["JwtConfig:Audience"],
         ValidateLifetime = true,
-        ValidateIssuer = true,
-        ValidateIssuerSigningKey = true,
-        ValidateAudience = true,
+        ClockSkew = TimeSpan.Zero
     };
 });
 
 services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 services.AddEndpointsApiExplorer();
-services.AddSwaggerGen();
+
+services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "Bearer"
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var service = scope.ServiceProvider;
+
+    try
+    {
+        var context = service.GetRequiredService<Context>();
+        context.Database.Migrate();
+    }
+    catch (Exception ex)
+    {
+        var logger = service.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred while migrating or initializing the database.");
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -53,6 +97,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

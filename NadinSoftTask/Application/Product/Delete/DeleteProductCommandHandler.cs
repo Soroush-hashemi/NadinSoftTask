@@ -16,7 +16,11 @@ public class DeleteProductCommandHandler : IBaseCommandHandler<DeleteProductComm
         if (product is null)
             return OperationResult.Success();
 
+        if (product.UserId != request.userId)
+            return OperationResult.Error("محصول مربوط به کاربر دیگری است");
+
         _productRepository.Delete(product);
+        await _productRepository.Save();
         return OperationResult.Success();
     }
 }

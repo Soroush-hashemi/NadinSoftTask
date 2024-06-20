@@ -19,7 +19,7 @@ public class GetProductsQueryHandler : IQueryHandler<GetProductsQuery, List<Prod
     {
         var products = await _context.Products.ToListAsync();
         if (products == null)
-            throw new NullReferenceException(nameof(products));
+            throw new NullReferenceException("وجود ندارد");
 
         var productDTOs = _mapper.Map<List<ProductDTO>>(products);
         return productDTOs;

@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Domain", "common\Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Application", "common\Common.Application\Common.Application.csproj", "{8175C9FA-1E52-4752-8599-333365742BE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Query", "common\Common.Query\Common.Query.csproj", "{7A74BF85-B8C5-4124-8422-3A4A5069EDA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Query", "common\Common.Query\Common.Query.csproj", "{7A74BF85-B8C5-4124-8422-3A4A5069EDA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

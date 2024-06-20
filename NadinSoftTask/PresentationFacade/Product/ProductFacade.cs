@@ -25,9 +25,9 @@ public class ProductFacade : IProductFacade
             manufacturerEmail, new PhoneNumber(manufacturerPhone), produceDate));
     }
 
-    public async Task<OperationResult> Delete(long ProductId)
+    public async Task<OperationResult> Delete(long UserId, long ProductId)
     {
-        return await _mediator.Send(new DeleteProductCommand(ProductId));
+        return await _mediator.Send(new DeleteProductCommand(UserId, ProductId));
     }
 
     public async Task<OperationResult> Edit(long productId, long userId, string name, bool isAvailable,

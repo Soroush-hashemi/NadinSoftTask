@@ -1,0 +1,68 @@
+name: dockercompose2773091460784807389
+services:
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlserverdata
+        target: /var/opt/mssql
+        volume: {}
+  webapi:
+    build:
+      context: C:\Users\soroush\Desktop\Nadin Soft Task\NadinSoftTask
+      dockerfile: WebApi/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      ConnectionStrings__DefaultConnection: Server=.;Database=NadinSoftTask;Integrated Security=true;MultipleActiveResultSets=true;TrustServerCertificate=true;
+    image: nadinsoft
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        published: "8081"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\soroush\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\soroush\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose2773091460784807389_default
+volumes:
+  sqlserverdata:
+    name: dockercompose2773091460784807389_sqlserverdata

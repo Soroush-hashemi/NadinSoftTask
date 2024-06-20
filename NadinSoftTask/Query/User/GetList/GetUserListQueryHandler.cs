@@ -19,7 +19,7 @@ public class GetUserListQueryHandler : IQueryHandler<GetUserListQuery, List<User
     {
         var users = await _context.Users.ToListAsync();
         if (users is null)
-            throw new NullReferenceException(nameof(users));
+            throw new NullReferenceException("وجود ندارد");
 
         var userDTO = _mapper.Map<List<UserDTO>>(users);
         return userDTO;

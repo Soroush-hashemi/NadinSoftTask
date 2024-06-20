@@ -18,7 +18,7 @@ public class GetUserByIdQueryHandler : IQueryHandler<GetUserByIdQuery, UserDTO>
     {
         var user = await _context.Users.FirstOrDefaultAsync(x => x.Id == request.UserId);
         if (user is null)
-            throw new NullReferenceException();
+            throw new NullReferenceException("وجود ندارد");
 
         var userDTO = _mapper.Map<UserDTO>(user);
         return userDTO;

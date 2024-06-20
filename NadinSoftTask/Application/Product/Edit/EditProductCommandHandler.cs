@@ -21,6 +21,9 @@ public class EditProductCommandHandler : IBaseCommandHandler<EditProductCommand>
             if (product is null)
                 return OperationResult.NotFound();
 
+            if (product.UserId != request.UserId)
+                return OperationResult.Error("محصول مربوط به کاربر دیگری است");
+
             product.Edit(request.Name, request.IsAvailable, request.ManufacturerEmail,
                 request.ManufacturerPhone, request.ProduceDate, _domainService);
 

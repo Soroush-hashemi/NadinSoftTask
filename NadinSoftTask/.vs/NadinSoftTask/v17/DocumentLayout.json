@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\application\\user\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B89615CF-08D3-429C-81A1-C6CD5E6FA694}|Application\\Application.csproj|solutionrelative:application\\user\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|c:\\users\\soroush\\desktop\\nadin soft task\\nadinsofttask\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{95A2CEDE-E6A5-410B-BE37-0F9B363B4905}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,53 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Services\\UserService.cs",
-              "RelativeToolTip": "Application\\User\\Services\\UserService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:43:57.101Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Application\\User\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\Application\\User\\Services\\IUserService.cs",
-              "RelativeToolTip": "Application\\User\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:43:33.672Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwD0AAAAFAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAIwEgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:39:10.901Z",
+              "WhenOpened": "2024-06-20T13:39:55.273Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:05:09.228Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "WebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T20:09:41.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-20T19:55:43.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebApi.http",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\WebApi.http",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.http",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Nadin Soft Task\\NadinSoftTask\\WebApi\\WebApi.http",
+              "RelativeToolTip": "WebApi\\WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-20T19:59:44.796Z"
             }
           ]
         }

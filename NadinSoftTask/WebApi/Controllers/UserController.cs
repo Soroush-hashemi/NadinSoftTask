@@ -1,5 +1,4 @@
-﻿using Application.User.Register;
-using Application.User.Services;
+﻿using Application.User.Services;
 using Microsoft.AspNetCore.Mvc;
 using PresentationFacade.User;
 
@@ -36,14 +35,14 @@ public class UserController : ControllerBase
     [HttpPost("Register")]
     public async Task<IActionResult> Register(string userName , string Email , string Password)
     {
-        if (userName is null)
-            throw new NullReferenceException();
+        if (string.IsNullOrEmpty(userName))
+            return BadRequest("نام کاربری الزامی است");
 
-        if (Email is null)
-            throw new NullReferenceException();
+        if (string.IsNullOrEmpty(Email))
+            return BadRequest("ایمیل الزامی است");
 
-        if (Password is null)
-            throw new NullReferenceException();
+        if (string.IsNullOrEmpty(Password))
+            return BadRequest("رمز عبور الزامی است");
 
         var result = await _userFacade.Register(userName, Email, Password);
         return Ok(result);
@@ -52,10 +51,11 @@ public class UserController : ControllerBase
     [HttpPost("Login")]
     public IActionResult Login(string Email, string Password)
     {
-        if (Email is null)
-            throw new NullReferenceException(nameof(Email));
-        if (Password is null)
-            throw new NullReferenceException(nameof(Email));
+        if (string.IsNullOrEmpty(Email))
+            return BadRequest("ایمیل الزامی است");
+
+        if (string.IsNullOrEmpty(Password))
+            return BadRequest("رمز عبور الزامی است");
 
         var token = _userService.GenerateToken(Email, Password);
         return Ok(token);

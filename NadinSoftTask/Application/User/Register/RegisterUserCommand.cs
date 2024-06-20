@@ -4,7 +4,7 @@ using Common.Domain.ValueObjects;
 namespace Application.User.Register;
 public class RegisterUserCommand : IBaseCommand
 {
-    public RegisterUserCommand(string userName, string fullName, string phoneNumber, string email, string password)
+    public RegisterUserCommand(string userName, string email, string password)
     {
         UserName = userName;
         Email = email;

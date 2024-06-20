@@ -2,13 +2,12 @@
 using Application.Product.Delete;
 using Application.Product.Edit;
 using Common.Application;
+using Common.Domain.ValueObjects;
 using MediatR;
 using Query.Product.DTO;
 using Query.Product.GetById;
 using Query.Product.GetByUserId;
 using Query.Product.GetList;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace PresentationFacade.Product;
 public class ProductFacade : IProductFacade
@@ -19,9 +18,11 @@ public class ProductFacade : IProductFacade
         _mediator = mediator;
     }
 
-    public async Task<OperationResult> Create(CreateProductCommand command)
+    public async Task<OperationResult> Create(long userId, string name, bool isAvailable,
+        string manufacturerEmail, string manufacturerPhone, DateTime produceDate)
     {
-        return await _mediator.Send(command);
+        return await _mediator.Send(new CreateProductCommand(userId, name, isAvailable,
+            manufacturerEmail, new PhoneNumber(manufacturerPhone), produceDate));
     }
 
     public async Task<OperationResult> Delete(long ProductId)
@@ -29,9 +30,11 @@ public class ProductFacade : IProductFacade
         return await _mediator.Send(new DeleteProductCommand(ProductId));
     }
 
-    public async Task<OperationResult> Edit(EditProductCommand command)
+    public async Task<OperationResult> Edit(long productId, long userId, string name, bool isAvailable,
+        string manufacturerEmail, string manufacturerPhone, DateTime produceDate)
     {
-        return await _mediator.Send(command);
+        return await _mediator.Send(new EditProductCommand(productId, userId, name, isAvailable,
+            manufacturerEmail, new PhoneNumber(manufacturerPhone), produceDate));
     }
 
     public async Task<List<ProductDTO>> GetPostsList()
@@ -44,7 +47,7 @@ public class ProductFacade : IProductFacade
         return await _mediator.Send(new GetProductByIdQuery(ProductId));
     }
 
-    public async Task<List<ProductDTO>> GetProductByUserId(long userId)
+    public async Task<List<ProductDTO>> GetProductsByUserId(long userId)
     {
         return await _mediator.Send(new GetProductsByUserIdQuery(userId));
     }

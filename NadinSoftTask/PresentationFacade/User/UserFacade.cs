@@ -15,23 +15,23 @@ public class UserFacade : IUserFacade
         _mediator = mediator;
     }
 
-    public async Task<OperationResult> Register(RegisterUserCommand command)
+    public async Task<OperationResult> Register(string userName, string email, string password)
     {
-        return await _mediator.Send(command);
+        return await _mediator.Send(new RegisterUserCommand(userName, email, password));
     }
 
-    public async Task<UserDTO> GetByEmail(GetUserByEmailQuery query)
+    public async Task<UserDTO> GetByEmail(string email)
     {
-        return await _mediator.Send(query);
+        return await _mediator.Send(new GetUserByEmailQuery(email));
     }
 
-    public async Task<UserDTO> GetById(GetUserByIdQuery query)
+    public async Task<UserDTO> GetById(long UserId)
     {
-        return await _mediator.Send(query);
+        return await _mediator.Send(new GetUserByIdQuery(UserId));
     }
 
-    public async Task<List<UserDTO>> GetList(GetUserListQuery query)
+    public async Task<List<UserDTO>> GetList()
     {
-        return await _mediator.Send(query);
+        return await _mediator.Send(new GetUserListQuery());
     }
 }

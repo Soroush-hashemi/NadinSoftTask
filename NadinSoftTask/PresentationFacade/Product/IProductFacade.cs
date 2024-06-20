@@ -1,13 +1,14 @@
-﻿using Application.Product.Create;
-using Application.Product.Edit;
-using Common.Application;
+﻿using Common.Application;
 using Query.Product.DTO;
 
 namespace PresentationFacade.Product;
 public interface IProductFacade
 {
-    Task<OperationResult> Create(CreateProductCommand command);
-    Task<OperationResult> Edit(EditProductCommand command);
+    Task<OperationResult> Create(long userId, string name, bool isAvailable,
+        string manufacturerEmail, string manufacturerPhone, DateTime produceDate);
+
+    Task<OperationResult> Edit(long productId, long userId, string name, bool isAvailable,
+        string manufacturerEmail, string manufacturerPhone, DateTime produceDate);
     Task<OperationResult> Delete(long ProductId);
 
     Task<List<ProductDTO>> GetPostsList();

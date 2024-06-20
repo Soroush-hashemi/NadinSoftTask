@@ -8,6 +8,9 @@ using FluentValidation;
 using Query.Product.GetById;
 using PresentationFacade.Product;
 using PresentationFacade.User;
+using AutoMapper;
+using Query.Product;
+using Query.User;
 
 namespace Config;
 public static class Bootstrapper

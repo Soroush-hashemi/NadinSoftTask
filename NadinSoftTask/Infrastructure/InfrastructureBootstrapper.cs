@@ -1,4 +1,5 @@
-﻿using Domain.Product;
+﻿using Application.User.Services;
+using Domain.Product;
 using Domain.User;
 using Infrastructure.Persistence;
 using Infrastructure.Repositories;
@@ -12,6 +13,8 @@ public static class InfrastructureBootstrapper
     {
         services.AddTransient<IUserRepository, UserRepository>();
         services.AddTransient<IProductRepository, ProductRepository>();
+
+        services.AddTransient<IUserService, UserService>();
 
         services.AddDbContext<Context>(option =>
         {

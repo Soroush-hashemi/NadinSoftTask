@@ -1,4 +1,5 @@
 ﻿using Application.User.Register;
+using Application.User.Services;
 using Microsoft.AspNetCore.Mvc;
 using PresentationFacade.User;
 
@@ -9,9 +10,11 @@ namespace WebApi.Controllers;
 public class UserController : ControllerBase
 {
     private readonly IUserFacade _userFacade;
-    public UserController(IUserFacade userFacade)
+    private readonly IUserService _userService;
+    public UserController(IUserFacade userFacade , IUserService userService)
     {
         _userFacade = userFacade;
+        _userService = userService;
     }
 
     [HttpGet]
@@ -44,5 +47,17 @@ public class UserController : ControllerBase
 
         var result = await _userFacade.Register(userName, Email, Password);
         return Ok(result);
+    }
+
+    [HttpPost("Login")]
+    public IActionResult Login(string Email, string Password)
+    {
+        if (Email is null)
+            throw new NullReferenceException(nameof(Email));
+        if (Password is null)
+            throw new NullReferenceException(nameof(Email));
+
+        var token = _userService.GenerateToken(Email, Password);
+        return Ok(token);
     }
 }

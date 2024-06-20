@@ -18,4 +18,12 @@ internal class UserRepository : BaseRepository<User>, IUserRepository
 
         _context.Users.Remove(User);
     }
+
+    public User GetUserByEmail(string Email)
+    {
+        var user = _context.Users.FirstOrDefault(x => x.Email == Email);
+        if (user is null)
+            throw new ArgumentNullException(nameof(user));
+        return user;
+    }
 }

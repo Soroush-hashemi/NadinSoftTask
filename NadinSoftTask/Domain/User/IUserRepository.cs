@@ -4,4 +4,5 @@ namespace Domain.User;
 public interface IUserRepository : IBaseRepository<User>
 {
     void DeleteUser(User User);
+    User GetUserByEmail(string Email);
 }
